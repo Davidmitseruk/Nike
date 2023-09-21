@@ -1,0 +1,17 @@
+root{
+    
+}
+
+.container{
+    width: 1440px;
+    padding-left: 15px ;
+    padding-right: 15px ;
+    margin: 0 auto;
+}
+/*header*/
+.nike-logo{
+    width: 100px;
+    height: 60px;
+    flex-shrink: 0;
+    background: url(./img/ed69f7fa91929ff49ecafac2bfd72360\ 2.png), lightgray 50% / cover no-repeat;
+}
