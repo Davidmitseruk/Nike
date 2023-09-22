@@ -1,4 +1,7 @@
-root{
+:root{
+    --primary-text-color:#FFF;
+    --header-background-color:#012D63;
+    --secondary-text-color: #C7C7C7;
     
 }
 
@@ -9,9 +12,34 @@ root{
     margin: 0 auto;
 }
 /*header*/
+.header{
+    height: 93px;
+    background-color: #012D63;
+}
 .nike-logo{
     width: 100px;
     height: 60px;
     flex-shrink: 0;
     background: url(./img/ed69f7fa91929ff49ecafac2bfd72360\ 2.png), lightgray 50% / cover no-repeat;
+}
+.header-list{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 152px;
+
+}
+.nav-link{
+    color:var(--secondary-text-color) ;
+    margin: auto;
+}
+.nav-link:nth-child(1){
+    color: var(--primary-text-color);
+}
+.languege{
+    display: flex;
+}
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
