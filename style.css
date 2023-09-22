@@ -103,5 +103,11 @@ body{
 .button-one{
     border-radius: 10px;
     background: #8E32C6;
+    padding: 20px 61px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--primary-text-color);
 }
 
