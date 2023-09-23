@@ -53,7 +53,6 @@ body{
 }
 /*section-one*/
 .sec-one-logo{
-    margin-top: 91px;
     width: 160px;
     height: 120px;
     flex-shrink: 0;
@@ -64,8 +63,8 @@ body{
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
-    padding-top:91px;
-    padding-bottom: 183px;
+    padding-top:21px;
+    padding-bottom: 160px;
 
 
 }
@@ -108,6 +107,16 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    color: var(--primary-text-color);
+}
+/*section-two*/
+.section-two{
+    background: url(img/Group\ 8\ 1.jpg), lightgray 0px -384px / 100% 227.888% no-repeat;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    padding-top: 21px;
+    padding-bottom: 160px;
     color: var(--primary-text-color);
 }
 
