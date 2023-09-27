@@ -56,7 +56,9 @@ body{
     width: 160px;
     height: 120px;
     flex-shrink: 0;
-    margin-bottom: -20px;
+    margin-bottom: -28px;
+    margin-top: 91px;
+    margin-left: 14px;
 }
 .section-one{
     background: url(img/Group37\(1\)1\(1\).jpg), lightgray 50% / cover no-repeat;
@@ -99,6 +101,7 @@ body{
     font-weight: 400;
     line-height: normal;
     margin-bottom: 41px;
+    margin-top: 12px;
 }
 .button-one{
     border-radius: 10px;
@@ -109,7 +112,7 @@ body{
     font-weight: 400;
     line-height: normal;
     color: var(--primary-text-color);
-    
+    border: none;
 }
 /*section-two*/
 .section-two{
@@ -176,6 +179,15 @@ body{
     font-weight: 400;
     line-height: normal;
 }
+.time{
+    color:#D8D8D8;
+    margin-top: 8px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
 .sec-three-list{
     display: flex;
     justify-content: space-around;
@@ -218,6 +230,48 @@ body{
     font-weight: 400;
     line-height: normal;
 }
+/*section-four*/
+.order{
+    background: url(img/Group\ 2\ 1\ \(1\).png), lightgray -1.001px -1.002px / 100.209% 158.214% no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.sec-four-title{
+    text-align: center;
+}
+.sec-four-form{
+    display:flex;
+    color: var(--primary-text-color);
+    flex-wrap:wrap ;
+}
+.input-one{
+    width: 690px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    margin-left: 375px;
+}
+.input{
+    border-radius: 50px;
+    width: 580px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-right: 500px;
+    margin-left: 430px;
+}
+.button-two{
+    border-radius: 16px;
+    background: #8E32C6;
+    padding: 20px 61px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--primary-text-color);
+    border: none;
+}
+
 
 
 
