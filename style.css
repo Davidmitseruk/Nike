@@ -61,10 +61,10 @@ body{
 .section-one{
     background: url(img/Group37\(1\)1\(1\).jpg), lightgray 50% / cover no-repeat;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-position: center;
-    padding-top:21px;
-    padding-bottom: 160px;
+    padding-top:94px;
+    padding-bottom: 183px;
 
 
 }
@@ -77,6 +77,7 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-left: 39px;
 }
 .colo-rawe{
     font-family:Playfair Display, sans-serif;
@@ -108,15 +109,16 @@ body{
     font-weight: 400;
     line-height: normal;
     color: var(--primary-text-color);
+    
 }
 /*section-two*/
 .section-two{
     background: url(img/Group\ 8\ 1.jpg), lightgray 0px -384px / 100% 227.888% no-repeat;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-position: center;
-    padding-top: 21px;
-    padding-bottom: 160px;
+    padding-top: 105px;
+    padding-bottom: 105px;
     color: var(--primary-text-color);
 }
 .sec-two-list{
@@ -151,6 +153,67 @@ body{
     text-align: center;
     font-family: Playfair Display, sans-serif;
     font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/*section-three*/
+.section-three{
+    color: var(--primary-text-color);
+    background: url(img/Group\ 6\ 1.jpg), lightgray 0px -9px / 100% 255.769% no-repeat;
+    border-top: 2px solid var(--primary-text-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 520px;
+}
+.sec-three-title{
+    font-family: Playfair Display, sans-serif;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.sec-three-list{
+    display: flex;
+    justify-content: space-around;
+}
+.sec-three-card{
+    padding-left: 18px;
+    padding-top: 49px;
+    width: 255px;
+    height: 292px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+    box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
+}
+.sec-three-card-two{
+    padding-left: 18px;
+    padding-top: 49px;
+    width: 255px;
+    height: 292px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border-radius: 15px;
+    background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+    box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
+}
+.sec-three-card-three{
+    padding-left: 18px;
+    padding-top: 49px;
+    width: 255px;
+    height: 292px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border-radius: 15px;
+    background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+    box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
+}
+.sec-three-comment{
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
