@@ -4,6 +4,7 @@
     --header-background-color:#012D63;
     --secondary-text-color: #C7C7C7;
     --button-color: #8E32C6;
+    --ua:#DCDCDC;
 }
 
 .container{
@@ -31,7 +32,11 @@ body{
     display: flex;
     justify-content: space-between;
     margin-left: 152px;
-
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 }
 .nav-link{
     color:var(--secondary-text-color) ;
@@ -39,6 +44,12 @@ body{
 }
 .nav-link-q{
     color: var(--secondary-text-color);
+    margin-left: 29px;
+}
+.nav-link-q-order{
+    color: var(--secondary-text-color);
+    margin-left: 20px;
+    margin-right: 73px;
 }
 .nav-link:nth-child(1){
     color: var(--primary-text-color);
@@ -50,6 +61,23 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.ua{
+    color: var(--ua);
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.english{
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 12px;
 }
 /*section-one*/
 .sec-one-logo{
@@ -160,6 +188,7 @@ body{
     font-weight: 400;
     line-height: normal;
 }
+
 /*section-three*/
 .section-three{
     color: var(--primary-text-color);
@@ -239,6 +268,14 @@ body{
 }
 .sec-four-title{
     text-align: center;
+    color: var(--primary-text-color);
+    color: #FFF;
+    font-family: Playfair Display, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 33px;
 }
 .sec-four-form{
     display:flex;
@@ -270,6 +307,43 @@ body{
     line-height: normal;
     color: var(--primary-text-color);
     border: none;
+}
+/*footer*/
+.footer{
+    background: #021635;
+    color: var(--primary-text-color);
+}
+.footer-list-one{
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.footer-list-two{
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+    text-decoration-line: underline;
+}
+.footer-top{
+    margin-top: 45px;
+}
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+}
+.line{
+    width: 1110px;
+    height: 1px;
+    background: #9B9B9B;
+    margin-top: 10px;
 }
 
 
