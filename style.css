@@ -208,11 +208,11 @@ body{
    
     
 }
-.sec-three{
+/*.sec-three{
     background: url(img/цветы\ 2\ 1\ \(1\).png);
     background-repeat: no-repeat;
     background-position:left bottom;
-}
+}*/
 .sec-three-title{
     font-family: Playfair Display, sans-serif;
     text-align: center;
@@ -370,6 +370,8 @@ body{
 .footer{
     background: #021635;
     color: var(--primary-text-color);
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 .footer-list-one{
     color: var(--primary-text-color);
@@ -401,6 +403,7 @@ body{
     height: 1px;
     background: #9B9B9B;
     margin-top: 10px;
+    margin-bottom: 24px;
 }
 .last-footer{
     display: flex;
@@ -418,6 +421,9 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+.footer-text{
+    margin-bottom: 8px;
 }
 
 
