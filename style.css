@@ -199,20 +199,14 @@ body{
 /*section-three*/
 .section-three{
     color: var(--primary-text-color);
-    background: url(img/Group\ 6\ 1.jpg), lightgray 0px -9px / 100% 255.769% no-repeat;
-    border-top: 2px solid var(--primary-text-color);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 520px;
-   
-    
+    background-image: url(img/цветы\ 2\ 1\ \(1\).png), url(img/Group\ 6\ 1.jpg);  
+    background-size: 300px, cover; 
+    background-repeat: no-repeat, no-repeat;  
+    background-position: left bottom, center;  
+    padding-top: 25px;  
+    padding-bottom: 100px;  
 }
-/*.sec-three{
-    background: url(img/цветы\ 2\ 1\ \(1\).png);
-    background-repeat: no-repeat;
-    background-position:left bottom;
-}*/
+
 .sec-three-title{
     font-family: Playfair Display, sans-serif;
     text-align: center;
