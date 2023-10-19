@@ -247,7 +247,7 @@ body{
     flex-shrink: 0;
     border-radius: 15px;
     background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
-    box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
+    box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;
 }
 .sec-three-card-two{
     padding-left: 18px;
@@ -258,7 +258,7 @@ body{
     border-radius: 15px;
     border-radius: 15px;
     background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
-    box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
+    box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C;
 }
 .sec-three-card-three{
     padding-left: 18px;
@@ -268,7 +268,7 @@ body{
     flex-shrink: 0;
     border-radius: 15px;
     background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
-    box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
+    box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
 }
 .sec-three-comment{
     font-size: 24px;
@@ -300,7 +300,7 @@ body{
     background: url(img/Group\ 2\ 1\ \(1\).png), lightgray -1.001px -1.002px / 100.209% 158.214% no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    padding-top: 21px;
 }
 .sec-four-title{
     text-align: center;
